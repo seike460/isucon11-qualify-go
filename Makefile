@@ -16,7 +16,7 @@ go-restart: ## Restart Server
 
 nginx-restart: ## Restart nginx
 	@sudo cp -a nginx/* /etc/nginx/
-	@sudo rm /var/log/nginx/access.log
+	#@sudo rm /var/log/nginx/access.log
 	@sudo rm /var/log/nginx/error.log
 	@sudo systemctl restart nginx
 	@echo 'Restart nginx'
