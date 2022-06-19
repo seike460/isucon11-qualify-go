@@ -2,7 +2,7 @@
 
 restart: ## Copy configs from repository to conf
 	@make -s nginx-restart
-	@make -s db-restart
+	#@make -s db-restart
 	@make -s go-restart
 
 go-log: ## Log Server
